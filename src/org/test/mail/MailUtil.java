@@ -24,6 +24,7 @@ public class MailUtil
 	private static final void syncSend(String to, String subject, String content) throws AddressException,
 			MessagingException
 	{
+//11
 		Session session = Session.getDefaultInstance(properties);
 		Message message = new MimeMessage(session);
 		message.setFrom(new InternetAddress(FROM));
